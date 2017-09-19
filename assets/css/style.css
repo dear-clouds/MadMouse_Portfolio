@@ -1,0 +1,36 @@
+.gap {
+  margin-top: 50px;
+}
+
+.gap-large {
+  margin-top: 100px;
+}
+
+body {
+
+  background:
+   /* top, transparent red, faked with gradient */
+   linear-gradient(
+     rgba(0, 0, 0, 0.45),
+     rgba(0, 0, 0, 0.45)
+   ),
+   /* bottom, image */
+   url(../img/bg.jpg) !important;
+}
+
+#competences, #contact {
+  background: white !important;
+}
+
+#competences {
+  margin-top: -100px !important;
+  padding: 120px 0px 50px 0px !important;
+}
+
+h3 {
+  text-align: center !important;
+}
+
+.contact {
+  max-width: 70%;
+}
