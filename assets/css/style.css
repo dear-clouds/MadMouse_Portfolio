@@ -19,6 +19,10 @@ h2 {
   font-weight: bold !important;
 }
 
+.sous-titre {
+  color: #854DFF  !important;
+}
+
 h3 {
     font-family: 'Archivo Black', sans-serif !important;
     text-transform: uppercase !important;

@@ -56,7 +56,7 @@
         <div class="col-md-5 text-right"><img src="assets/img/logo-home-madmouse.png"></div>
         <div class="col-md-7">
           <h1>MadMouse Effect</h1>
-          <h2>Graphiste Motion Designer</h2>
+          <h2 class="sous-titre">Graphiste Motion Designer</h2>
         </div>
       </div>
 
