@@ -113,6 +113,9 @@ body {
 .navbar-inverse.scrolled {
   background-color: #854DFF !important;
   transition: background-color 500ms linear !important;
+}
+
+.navbar-inverse.scrolled .navbar-nav>li>a {
   color: white !important;
 }
 
@@ -157,4 +160,10 @@ body {
 footer {
   color: #BEC7D5;
   padding: 20px;
+}
+
+
+.grid-item img {
+  max-width: 100%;
+  max-height: 100%;
 }

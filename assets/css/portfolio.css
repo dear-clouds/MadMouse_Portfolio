@@ -34,7 +34,7 @@
   position: relative;
   z-index: 1;
   display: inline-block;
-  background: #2e5d5a;
+  background: #854DFF;
 }
 
 #posts .post img {
@@ -56,6 +56,8 @@
   opacity: 0.5;
   -webkit-transform: translate3d(0, 0, 0) scale(1);
   transform: translate3d(0, 0, 0) scale(1);
+  -webkit-filter: blur(5px); /* Safari */
+  filter: blur(5px);
 }
 
 #posts .post .post-content {
@@ -95,6 +97,11 @@
   bottom: 0;
   padding: 1em 1.2em;
   color: white !important;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
 }
 
 #posts .post h2,
@@ -114,7 +121,7 @@
   transform: translate3d(-40px, 0, 0);
 }
 
-#posts .post:hover p {
+#posts .post:hover p, #posts .post:hover h2 {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
