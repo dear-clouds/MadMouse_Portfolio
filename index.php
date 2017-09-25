@@ -9,7 +9,11 @@
 
   <!-- Bootstrap -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/portfolio.css" rel="stylesheet">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Lato" rel="stylesheet">
+  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?rd5re8">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,6 +21,13 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+
+</script>
+
 </head>
 <body>
 
@@ -29,7 +40,7 @@
           <a class="navbar-brand" href="#"><img src="assets/img/logo-madmouse.png"></a>
         </div>
 
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right" style="padding: 10px;">
           <li><a href="#showreel">Showreel</a></li>
           <li><a href="#competences">Compétences</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
@@ -60,8 +71,10 @@
 
   <section id="competences">
     <div class="container">
+
+      <div class="text-center">
       <h3>Compétences</h3>
-      <hr>
+      <div class="devider"><img src="assets/img/logo-devider.png" width="30px"></i></div></div>
 
       <div class="row">
         <div class="col-md-4">
@@ -85,20 +98,60 @@
   </section>
 
   <section id="portfolio">
+    <div class="text-center">
     <h3>Portfolio</h3>
-    <hr>
+    <div class="devider"><img src="assets/img/logo-devider.png" width="30px"></i></div></div>
 
+    <div id='filter'>
+      <button class='all active'>All</button>
+      <button class='logo'>Logos</button>
+      <button class='web'>Web</button>
+      <button class='motion'>Motion</button>
+      <button class='illustration'>Illustration</button>
+    </div>
+
+    <!-- Demo images from behance.net -->
+    <div id='posts'>
+
+      <!-- ITEM 1 -->
+      <div class='post illustration'><img src='assets/img/works/item-1.jpg'/>
+        <div class='post-content'>
+          <h2>Titre</h2>
+          <p>La description que tu veux</p>
+        <a href="#" data-width="auto" data-rel="monaleesi" class="poplight">Details</a>
+      </div>
+      </div>
+      <div id="monaleesi" class="popup_block">
+        <div class="row">
+    <div class="col-md-8">
+      <img src='assets/img/works/item-1-1.jpg' width="100%"/>
+    </div>
+    <div class="col-md-4">
+      <p>Description</p>
+    </div></div></div>
+      <!-- FIN ITEM 1 -->
+
+
+
+
+
+    </div>
+<div class='hidden'></div>
   </section>
+
+  <div class="gap-large"></div>
+  <div class="clearfix"></div>
 
   <section id="contact">
       <div class="container">
+        <div class="text-center">
         <h3>Contact</h3>
-        <hr>
+        <div class="devider"><img src="assets/img/logo-devider.png" width="30px"></i></div></div>
 
-        <p class="text-center"><a href=""><span class="glyphicon glyphicon-user"></span></a> <a href=""><span class="glyphicon glyphicon-user"></span></a> <a href=""><span class="glyphicon glyphicon-user"></span></a></p>
+        <p class="text-center"><a href="#"><span class="socicon-facebook"></span></a> <a href="#"><span class="socicon-instagram"></span></a> <a href="#"><span class="socicon-twitter"></span></a></p>
 
 
-        <form class="contact text-center">
+        <form class="contact" style="margin: 0 auto;">
   <div class="form-group">
     <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nom">
   </div>
@@ -122,9 +175,9 @@
       <p class="text-center">© 2017 by Bensafidine Walid. Alias MadMouse Effect.</p>
   </footer>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/portfolio.js"></script>
 </body>
 </html>

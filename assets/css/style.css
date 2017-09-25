@@ -1,3 +1,56 @@
+* {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.glyphicon {
+  font-family: 'Glyphicons Halflings' !important;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif !important;
+    text-transform: uppercase !important;
+    font-size: 450% !important;
+    color: white !important;
+}
+
+h2 {
+  text-transform: uppercase !important;
+  color: #854DFF;
+  font-weight: bold !important;
+}
+
+h3 {
+    font-family: 'Archivo Black', sans-serif !important;
+    text-transform: uppercase !important;
+    color: #854DFF !important;
+    font-size: 250% !important;
+}
+
+.devider {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.devider i {
+  color: #cccccc;
+}
+
+.devider:before,
+.devider:after {
+  content: "____________________________________________";
+  color: #e6e8ea;
+  position: relative;
+  bottom: 6px;
+}
+
+.devider:before {
+  right: 10px;
+}
+
+.devider:after {
+  left: 10px;
+}
+
 .gap {
   margin-top: 50px;
 }
@@ -16,6 +69,10 @@ body {
    ),
    /* bottom, image */
    url(../img/bg.jpg) !important;
+
+   background-repeat: no-repeat !important;
+   background-attachment: fixed !important;
+   background-size: cover !important;
 }
 
 #competences, #contact {
@@ -32,5 +89,23 @@ h3 {
 }
 
 .contact {
-  max-width: 70%;
+  max-width: 60%;
+}
+
+.navbar-brand {
+   height: auto !important;
+}
+
+.navbar-inverse {
+  background: rgba(14, 10, 54, 0.5) !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #CCCCCC  !important;
+    text-transform: uppercase !important;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #854DFF  !important;
 }
