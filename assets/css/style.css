@@ -28,6 +28,14 @@ h3 {
     text-transform: uppercase !important;
     color: #854DFF !important;
     font-size: 250% !important;
+    text-align: center !important;
+}
+
+h4 {
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  font-size: 150% !important;
+  vertical-align: middle;
 }
 
 .devider {
@@ -88,10 +96,6 @@ body {
   padding: 120px 0px 50px 0px !important;
 }
 
-h3 {
-  text-align: center !important;
-}
-
 .contact {
   max-width: 60%;
 }
@@ -108,8 +112,32 @@ h3 {
     color: #CCCCCC  !important;
     text-transform: uppercase !important;
     font-weight: bold;
+    transition: color 0.4s ease 0s;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #854DFF  !important;
+}
+
+.CV {
+  background-color: rgba(133, 77, 255, 1) !important;
+  border: solid rgba(43, 104, 156, 1) 0px !important;
+  cursor: pointer !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+  transition: color 0.4s ease 0s;
+}
+
+.CV:hover {
+  background-color: rgba(43, 104, 156, 1) !important;
+  transition: color 0.4s ease 0s;
+}
+
+.icon-violet {
+  color: #854DFF !important;
+  font-size: 150%;
+  vertical-align: middle;
 }

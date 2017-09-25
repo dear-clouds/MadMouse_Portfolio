@@ -78,22 +78,22 @@
 
       <div class="row">
         <div class="col-md-4">
-          <h4><span class="glyphicon glyphicon-user"></span> Logos & Mascottes </h4>
+          <h4><span class="glyphicon glyphicon-user icon-violet"></span> Logos & Mascottes </h4>
           <p>Moyen efficace pour communiquer avec votre audience sur votre entreprise, votre site Web ou vos applications mobiles...</p>
         </div>
 
         <div class="col-md-4">
-          <h4><span class="glyphicon glyphicon-user"></span> Logos & Mascottes </h4>
+          <h4><span class="glyphicon glyphicon-user icon-violet"></span> MOTION DESIGN </h4>
           <p>Moyen efficace pour communiquer avec votre audience sur votre entreprise, votre site Web ou vos applications mobiles...</p>
         </div>
 
         <div class="col-md-4">
-          <h4><span class="glyphicon glyphicon-user"></span> Logos & Mascottes </h4>
+          <h4><span class="glyphicon glyphicon-user icon-violet"></span> WEB DESIGN </h4>
           <p>Moyen efficace pour communiquer avec votre audience sur votre entreprise, votre site Web ou vos applications mobiles...</p>
         </div>
       </div>
-
-      <p class="text-center"><input type="button" value="Télécharger mon CV"></input></p>
+<div class="gap"></div>
+      <p class="text-center"><input type="button" value="Télécharger mon CV" class="CV"></input></p>
     </div>
   </section>
 
@@ -110,7 +110,6 @@
       <button class='illustration'>Illustration</button>
     </div>
 
-    <!-- Demo images from behance.net -->
     <div id='posts'>
 
       <!-- ITEM 1 -->
