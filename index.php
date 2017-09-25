@@ -124,7 +124,7 @@
       <div id="monaleesi" class="popup_block">
         <div class="row">
     <div class="col-md-8">
-      <img src='assets/img/works/item-1-1.jpg' width="100%"/>
+      <img src='assets/img/works/item-1-1.jpg' width="90%"/>
     </div>
     <div class="col-md-4">
       <p>Description</p>
