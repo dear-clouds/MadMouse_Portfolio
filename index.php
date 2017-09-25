@@ -67,7 +67,7 @@
 
       <div class="gap"></div>
 
-      <div class="text-center">
+      <div class="text-center" id="showreel">
         <iframe src="https://player.vimeo.com/video/225380697" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
     </div>
@@ -181,7 +181,47 @@
 
 
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-
+  <!-- Smooth Scroll (by Heather Migliorisi) -->
+  <script>
+  // Select all links with hashes
+  $('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#collapseOne"]')
+  .not('[href="#collapseTwo"]')
+  .not('[href="#collapseThree"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+  </script>
 
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/portfolio.js"></script>
